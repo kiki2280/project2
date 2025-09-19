@@ -149,9 +149,9 @@ body {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  transition: background 0.3s;
 }
 .social-link:hover {
-  background: #404bbf;
+  background: #40479a;
+  transform: scale(1.1);
 }
 
