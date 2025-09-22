@@ -189,7 +189,7 @@ body {
   justify-content: center;
   max-width: 1400px;     
    margin: 0 auto;
-  gap: 10px 60px;
+  /* gap: 10px 60px; */
 }
 .portfolio-button {
   width: 360px;
