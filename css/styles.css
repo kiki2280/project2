@@ -11,7 +11,8 @@ body {
   background-size: cover;
   text-align: center;
   background-position: center;
-  
+   max-width: 1440px;  
+   margin: 0 auto; 
 }
 .Header1 {
   font-size: 56px;
@@ -39,6 +40,7 @@ body {
   display: flex;       
   flex-wrap: wrap;     
   justify-content: center; 
+  
 }
 .block-icon {
   width: 264px;
@@ -110,12 +112,15 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 60px 24px;
+    gap: 0px ;
     padding: 20px;
+    
 } 
 .team-section{
   background: #f4f4fd;
   padding: 60px 20px;
+   max-width: 1440px;  
+   margin: 0 auto; 
 }
 .team-title {
   text-align: center;
@@ -182,6 +187,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1400px;     
+   margin: 0 auto;
   gap: 10px 60px;
 }
 .portfolio-button {
