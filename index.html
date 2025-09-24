@@ -13,40 +13,30 @@
   </head>
   <body>
     <div class="container">
-        <section class="navbar-section">
+       <section class="navbar-section">
             <header class="header">
+                <!-- Логотип -->
                 <div class="logo">
-                    <span class="blue">WEB</span>STUDIO
+                <a href="/">
+                    <img class="img_logo" src="./images/icons/Logo.svg" alt="WebStudio logo">
+                </a>
                 </div>
-
+                <!-- Навигация -->
                 <nav class="header_nav">
-                    <ul class="header_list">
-                    <li class="active"><a href="#!">
-                    <div class="nav_btn">
-                        <p>Studio</p>
-                        <img class="img_hover" src="./images/icons/hover.svg">
-                    </div>
-                    </a></li>
-                    <li><a href="#!">
-                    <div class="nav_btn">
-                        <p>Portfolio</p>
-                        <img class="img_hover" src="./images/icons/hover.svg">
-                    </div>
-                    </a></li>
-                    <li><a href="#!">
-                    <div class="nav_btn">
-                        <p>Contacts</p>
-                        <img class="img_hover" src="./images/icons/hover.svg">
-                    </div> 
-                    </a></li>
-                    </ul>
+                <ul class="header_list">
+                    <li><a href="#!" class="active">Studio</a></li>
+                    <li><a href="#!">Portfolio</a></li>
+                    <li><a href="#!">Contacts</a></li>
+                </ul>
                 </nav>
+                <!-- Контакты -->
                 <div class="header_contacts">
-                    <ul>
-                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    <ul class="header_contacts">
+                        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                     </ul>
                 </div>
+                
             </header>
         </section>
 
@@ -57,50 +47,56 @@
             </div>
         </section>
         <section class="strategy-section">
-            <div class="container-strategy">
-            <div class="column">
-                <div class="elem">
-                    <svg class="icon1" width="64" height="64">
-                    <use href="./images/icons/Group.svg"></use></svg></a>
-                </div>
-                <h3>Strategy</h3>
-                <p class="text">
-                    Our goal is to identify the business problem to walk away with the perfect and creative solution.
-                </p>
-            </div>
-            <div class="column">
-                <div class="elem">
-                    <svg class="icon1" width="64" height="64">
-                    <use href="./images/icons/clock.svg"></use></svg></a>
-                </div>
-                <h3>Punctuality</h3>
-                <p class="text">
+            <ul class="column_icon">
+                <li class="frame_icon">
+                    <svg width="64" height="64">
+                    <use href="./images/icons/icon1.svg"></use></svg>
+                </li>
+                <li>
+                    <h3>Strategy</h3>
+                </li>
+                <li class="color_gray">
+                     Our goal is to identify the business problem to walk away with the perfect and creative solution.
+                </li>
+            </ul>
+            <ul class="column_icon">
+                <li class="frame_icon">
+                    <svg width="64" height="64">
+                    <use href="./images/icons/icon2.svg"></use></svg>
+                </li>
+                <li>
+                    <h3>Punctuality</h3>
+                </li>
+                <li class="color_gray">
                     Bring the key message to the brand's audience for the best price within the shortest possible time.
-                </p>
-            </div>
-            <div class="column">
-                <div class="elem">
-                    <svg class="icon1" width="64" height="64">
-                    <use href="./images/icons/diagram1.svg"></use></svg></a>
-                </div>
-                <h3>Diligence</h3>
-                <p class="text">
-                    Research and confirm brands with the strongest digital growth opportunities and minimize risk.
-                </p>
-            </div>
-            <div class="column">
-                <div class="elem">
-                    <svg class="icon1" width="64" height="64">
-                    <use href="./images/icons/astronaut.svg"></use></svg></a>
-                </div>
-                <h3>Technologies</h3>
-                <p class="text">
-                    Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
-                </p>
-            </div>
-            </div>
+                </li>
+            </ul>
+            <ul class="column_icon">
+                <li class="frame_icon">
+                    <svg width="64" height="64">
+                    <use href="./images/icons/icon3.svg"></use></svg>
+                </li>
+                <li>
+                    <h3>Diligence</h3>
+                </li>
+                <li class="color_gray">
+                     Research and confirm brands with the strongest digital growth opportunities and minimize risk.
+                </li>
+            </ul>
+            <ul class="column_icon">
+                <li class="frame_icon">
+                    <svg width="64" height="64">
+                    <use href="./images/icons/icon4.svg"></use></svg>
+                </li>
+                <li>
+                    <h3>Technologies</h3>
+                </li>
+                <li class="color_gray">
+                     Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
+                </li>
+            </ul>
         </section>
-    
+ 
         <section class="team-section">
             <div class="container-team">
                 <h2 class="team-title">Our Team</h2>
@@ -259,95 +255,94 @@
                     <div class="container-portfolio">
                         <ul class="portfolio-list">
                             <li class="portfolio-item">
-                            <img class="portfolio-img"
-                            srcset="
-                            ./images/OurPortfolio/Portfolio1.jpg
-                            "
-                            src="./images/OurPortfolio/Portfolio1.jpg"
-                            alt="Portfolio Card 1"
-                            width="360"
-                            />
-                        <div class="portfolio-item-wrapper">
-                            <h3 class="portfolio-subtitle">Banking App</h3>
-                            <p class="portfolio-subtitle-text">App</p>
-                        </div>
+                                <img class="portfolio-img"
+                                srcset="
+                                ./images/OurPortfolio/Portfolio1.jpg
+                                "
+                                src="./images/OurPortfolio/Portfolio1.jpg"
+                                alt="Portfolio Card 1"
+                                width="360"
+                                />
+                                <div class="portfolio-item-wrapper">
+                                    <h3 class="portfolio-subtitle">Banking App</h3>
+                                    <p class="portfolio-subtitle-text">App</p>
+                                </div>
                             </li>
                         </ul>
                         <ul class="portfolio-list">
                             <li class="portfolio-item">
-                            <button class="portfolio-button">
-                                <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
-                                </p>
-                            </button>
-                               
-                        <div class="portfolio-item-wrapper">
-                            <h3 class="portfolio-subtitle">Cashless Payment</h3>
-                            <p class="portfolio-subtitle-text">Marketing</p>
-                        </div>
+                                <button class="portfolio-button">
+                                    <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                                    </p>
+                                </button>
+                                <div class="portfolio-item-wrapper">
+                                    <h3 class="portfolio-subtitle">Cashless Payment</h3>
+                                    <p class="portfolio-subtitle-text">Marketing</p>
+                                </div>
                             </li>
                         </ul>
                         <ul class="portfolio-list">
                             <li class="portfolio-item">
-                            <img class="portfolio-img"
-                            srcset="
-                            ./images/OurPortfolio/Portfolio3.jpg
-                            "
-                            src="./images/OurPortfolio/Portfolio3.jpg"
-                            alt="Portfolio Card 3"
-                            width="360"
-                            />
-                        <div class="portfolio-item-wrapper">
-                            <h3 class="portfolio-subtitle">Meditation App</h3>
-                            <p class="portfolio-subtitle-text">App</p>
-                        </div>
+                                <img class="portfolio-img"
+                                srcset="
+                                ./images/OurPortfolio/Portfolio3.jpg
+                                "
+                                src="./images/OurPortfolio/Portfolio3.jpg"
+                                alt="Portfolio Card 3"
+                                width="360"
+                                />
+                                <div class="portfolio-item-wrapper">
+                                    <h3 class="portfolio-subtitle">Meditation App</h3>
+                                    <p class="portfolio-subtitle-text">App</p>
+                                </div>
                             </li>
                         </ul>
                        <ul class="portfolio-list">
                             <li class="portfolio-item">
-                            <img class="portfolio-img"
-                            srcset="
-                            ./images/OurPortfolio/Portfolio4.jpg
-                            "
-                            src="./images/OurPortfolio/Portfolio4.jpg"
-                            alt="Portfolio Card 4"
-                            width="360"
-                            />
-                        <div class="portfolio-item-wrapper">
-                            <h3 class="portfolio-subtitle">Taxi Service</h3>
-                            <p class="portfolio-subtitle-text">Marketing</p>
-                        </div>
+                                <img class="portfolio-img"
+                                srcset="
+                                ./images/OurPortfolio/Portfolio4.jpg
+                                "
+                                src="./images/OurPortfolio/Portfolio4.jpg"
+                                alt="Portfolio Card 4"
+                                width="360"
+                                />
+                                <div class="portfolio-item-wrapper">
+                                    <h3 class="portfolio-subtitle">Taxi Service</h3>
+                                    <p class="portfolio-subtitle-text">Marketing</p>
+                                </div>
                             </li>
                         </ul>
                         <ul class="portfolio-list">
                             <li class="portfolio-item">
-                            <img class="portfolio-img"
-                            srcset="
-                            ./images/OurPortfolio/Portfolio5.jpg
-                            "
-                            src="./images/OurPortfolio/Portfolio5.jpg"
-                            alt="Portfolio Card 5"
-                            width="360"
-                            />
-                        <div class="portfolio-item-wrapper">
-                            <h3 class="portfolio-subtitle">Screen Illustrations</h3>
-                            <p class="portfolio-subtitle-text">Screen Illustrations</p>
-                        </div>
+                                <img class="portfolio-img"
+                                srcset="
+                                ./images/OurPortfolio/Portfolio5.jpg
+                                "
+                                src="./images/OurPortfolio/Portfolio5.jpg"
+                                alt="Portfolio Card 5"
+                                width="360"
+                                />
+                                <div class="portfolio-item-wrapper">
+                                    <h3 class="portfolio-subtitle">Screen Illustrations</h3>
+                                    <p class="portfolio-subtitle-text">Screen Illustrations</p>
+                                </div>
                             </li>
                         </ul>
                         <ul class="portfolio-list">
                             <li class="portfolio-item">
-                            <img class="portfolio-img"
-                            srcset="
-                            ./images/OurPortfolio/Portfolio6.jpg
-                            "
-                            src="./images/OurPortfolio/Portfolio6.jpg"
-                            alt="Portfolio Card 6"
-                            width="360"
-                            />
-                        <div class="portfolio-item-wrapper">
-                            <h3 class="portfolio-subtitle">Online Courses</h3>
-                            <p class="portfolio-subtitle-text">Marketing</p>
-                        </div>
+                                <img class="portfolio-img"
+                                srcset="
+                                ./images/OurPortfolio/Portfolio6.jpg
+                                "
+                                src="./images/OurPortfolio/Portfolio6.jpg"
+                                alt="Portfolio Card 6"
+                                width="360"
+                                />
+                                <div class="portfolio-item-wrapper">
+                                    <h3 class="portfolio-subtitle">Online Courses</h3>
+                                    <p class="portfolio-subtitle-text">Marketing</p>
+                                </div>
                             </li>
                         </ul>
                         
