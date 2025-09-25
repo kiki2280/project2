@@ -95,7 +95,6 @@ h2 {
                     url('../img/people-office1.png');
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh; /* растягивает секцию во весь экран */
   box-sizing: border-box;
 
 }
