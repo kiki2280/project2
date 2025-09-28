@@ -37,11 +37,8 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 156px ;
-  margin-right: 156px ;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  gap: 75px; 
+  padding: 24px 156px; /* сверху/снизу 24px, слева/справа 156px */
+  gap: 75px;
 }
 
 .header_nav {
@@ -77,6 +74,7 @@ h2 {
 
 .header_contacts ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
   color: #434455;
 }
@@ -362,3 +360,4 @@ h2 {
   transform: scale(1.1);
   background-color: #404BBF;
 }
+
